@@ -8,7 +8,7 @@ This python DB-API analyses the top four most viewed articles authors, and the d
 
 ## Example display
 
-============== top 4 articles ==============
+============== top 4 articles ============== \n
 Candidate is jerk, alleges rival   :  338647
 Bears love berries, alleges bear   :  253801
 Bad things gone, say good people   :  170098
