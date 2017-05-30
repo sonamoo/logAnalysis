@@ -8,17 +8,17 @@ This python DB-API analyses the top four most viewed articles authors, and the d
 
 ## Example display
 
-============== top 4 articles ============== \n
-Candidate is jerk, alleges rival   :  338647
-Bears love berries, alleges bear   :  253801
-Bad things gone, say good people   :  170098
-Goats eat Google's lawn            :   84906
-
-============== top 4 authors ===============
-Ursula La Multa                    :  507594
-Rudolf von Treppenwitz             :  423457
-Anonymous Contributor              :  170098
-Markoff Chaney                     :   84557
-
-======= higher than 1 percent req err ========
-2016-07-17 --- 2.2626862468 % error
+============== top 4 articles ==============__
+Candidate is jerk, alleges rival   :  338647__
+Bears love berries, alleges bear   :  253801__
+Bad things gone, say good people   :  170098__
+Goats eat Google's lawn            :   84906__
+											__
+============== top 4 authors ===============__
+Ursula La Multa                    :  507594__
+Rudolf von Treppenwitz             :  423457__
+Anonymous Contributor              :  170098__
+Markoff Chaney                     :   84557__
+											__
+======= higher than 1 percent req err ========__
+2016-07-17 --- 2.2626862468 % error__
