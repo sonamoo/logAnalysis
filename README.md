@@ -6,6 +6,17 @@ This python DB-API analyses the top four most viewed articles authors, and the d
 - unzip newsdata.sql.zip file
 - on the terminal run `python logs_analysis.py`
 
+## Views
+| Name               | Column        
+| -------------      |:-------------:
+| author_views       | author id, total views for author 
+| title_views        | article slug, views of the slugqq
+| top_articles       | top four article slug, views      
+| view_err_rate      | day, rate of HTTP error (N of HTTP 404/ N of HTTP 200)  
+| view_status        | day, number of total requests, number of total bad requests      
+| view_total_notfound| day, number of total bad requests      
+| view_total_status  | day, number of total requests    
+
 ## Example display
 
 ============== top 4 articles ==============<br/>
