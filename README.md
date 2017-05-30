@@ -8,7 +8,7 @@ This python DB-API analyses the top four most viewed articles authors, and the d
 
 ## Views
 | Name               | Column        
-| -------------      |:-------------:
+| -------------      |-------------
 | author_views       | author id, total views for author 
 | title_views        | article slug, views of the slugqq
 | top_articles       | top four article slug, views      
