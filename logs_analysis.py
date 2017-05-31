@@ -12,8 +12,8 @@ def connect(database_name="news"):
         print "failed to connect to the database"
 
 
-def displayFourPopularArticles():
-    """display four popular articles"""
+def displayThreePopularArticles():
+    """display three popular articles"""
     db, cursor = connect()
     QUERY = "SELECT articles.title, top_articles.views " \
             "FROM articles, top_articles " \
@@ -22,14 +22,14 @@ def displayFourPopularArticles():
     cursor.execute(QUERY)
     articles = cursor.fetchall()
     db.close()
-    print '============== top 4 articles =============='
+    print '============== Top 3 articles =============='
     for a, b in articles:
         print '{0:35s}: {1:7n}'.format(a, b)
     print ''
 
 
-def displayTopAuthors():
-    """Displays the top four authors with number of views"""
+def displayAuthors():
+    """Displays the all authors with number of views"""
     db, cursor = connect()
     QUERY = "SELECT authors.name AS author, "\
             "author_views.author_views AS views "\
@@ -38,7 +38,7 @@ def displayTopAuthors():
     cursor.execute(QUERY)
     author_views = cursor.fetchall()
     db.close()
-    print '============== top 4 authors ==============='
+    print '=============== All authors ================'
     for a, b in author_views:
         print '{0:35s}: {1:7n}'.format(a, b)
     print ''
@@ -55,11 +55,12 @@ def displayHighErr():
     db.commit()
     day_and_err_rate = cursor.fetchall()
     db.close()
-    print '======= higher than 1 percent req err ========'
+    print '====== Higher than 1 percent req err ======='
     for a, b in day_and_err_rate:
         print a, "---", b, "% error"
+    print ''
 
 
-displayFourPopularArticles()
-displayTopAuthors()
+displayThreePopularArticles()
+displayAuthors()
 displayHighErr()

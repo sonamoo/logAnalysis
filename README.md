@@ -1,5 +1,5 @@
 # logAnalysis
-This python DB-API analyses large database with over a million rows. API analyses the top four most viewed articles authors, and the day and the HTTP status error percentage. 
+This python DB-API analyses large database with over a million rows. API analyses the top three most viewed articles four authors, and the day that ad more than 1 % of HTTP request errors.
 
 ## How to run
 - [Install PostgreSQL](https://www.postgresql.org/download/macosx/)
@@ -22,7 +22,7 @@ There are 7 views are required to run this API.
 
 ## Example display
 
-============== top 4 articles ==============<br/>
+============== top 3 articles ==============<br/>
 Candidate is jerk, alleges rival   :  338647<br/>
 Bears love berries, alleges bear   :  253801<br/>
 Bad things gone, say good people   :  170098<br/>

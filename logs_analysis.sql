@@ -15,7 +15,7 @@ ORDER BY views DESC OFFSET 1
 LIMIT 3;
 
 CREATE VIEW title_views AS 
-SELECT SUBSTRING(path, 10, 100) AS title, COUNT(path) AS views 
+SELECT substring(path, length('/article/') + 1) AS title, COUNT(path) AS views 
 FROM log 
 GROUP BY title 
 ORDER BY views DESC;
