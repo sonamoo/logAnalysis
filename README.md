@@ -6,7 +6,7 @@ This python DB-API analyses large database with over a million rows. API analyse
 - unzip newsdata.sql.zip file
 - run `psql -d news -f newsdata.sql`
 - run `psql -f logs_analysis.sql`
-- run `python logs_analysis.py`
+- run `logs_analysis.py`
 
 ## Views
 There are 7 views are required to run this API.
