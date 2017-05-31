@@ -4,6 +4,7 @@ This python DB-API analyses large database with over a million rows. API analyse
 ## How to run
 - [Install PostgreSQL](https://www.postgresql.org/download/macosx/)
 - unzip newsdata.sql.zip file
+- run `psql -d news -f newsdata.sql`
 - run `psql -f logs_analysis.sql`
 - run `python logs_analysis.py`
 
