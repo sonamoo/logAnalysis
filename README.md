@@ -22,16 +22,16 @@ There are 7 views are required to run this API.
 
 ## Example display
 
-============== top 3 articles ==============<br/>
+============== Top 3 articles ==============<br/>
 Candidate is jerk, alleges rival   :  338647<br/>
 Bears love berries, alleges bear   :  253801<br/>
 Bad things gone, say good people   :  170098<br/>
 											<br/>
-============== top 4 authors ===============<br/>
+=============== All authors ================<br/>
 Ursula La Multa                    :  507594<br/>
 Rudolf von Treppenwitz             :  423457<br/>
 Anonymous Contributor              :  170098<br/>
 Markoff Chaney                     :   84557<br/>
 											<br/>
-======= higher than 1 percent req err ========<br/>
+====== Higher than 1 percent req err =======<br/>
 2016-07-17 --- 2.2626862468 % error<br/>
